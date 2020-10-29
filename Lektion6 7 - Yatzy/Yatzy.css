@@ -1,0 +1,187 @@
+body {
+  background-image: repeating-linear-gradient(rgb(240, 250, 200), rgba(250, 230, 210));
+}
+#terninger {
+  border: 1px solid hotpink;
+
+  width: 40%;
+  margin-bottom: 10px;
+
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 105px);
+  grid-template-rows: repeat(2, 100px);
+  grid-template-areas:
+    "dOne dTwo dThree dFour dFive"
+    "turn turn . roll roll";
+  column-gap: 0px;
+  row-gap: 20px;
+}
+#turn {
+  font-size: 50px;
+  grid-area: turn;
+}
+#0 {
+  grid-area: dOne;
+}
+#1 {
+  grid-area: dTwo;
+}
+#2 {
+  grid-area: dThree;
+}
+#3 {
+  grid-area: dFour;
+}
+#4 {
+  grid-area: dFive;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+button {
+  height: 50px;
+  width: 200px;
+  font-size: 45px;
+  grid-area: roll;
+}
+input {
+  width: 50px;
+}
+#container {
+  border: 1px solid hotpink;
+  width: 40%;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 14%) repeat(4, 7%);
+  grid-template-rows: repeat(15, 20px);
+  gap: 10px;
+
+  grid-template-areas:
+    "lOne One . . . ."
+    "lTwo Two . . . ."
+    "lThree Three . . . ."
+    "lFour Four . . . ."
+    "lFive Five . . . ."
+    "lSix Six lBonus Bonus lSum Sum"
+    "lOneP OneP . . . ."
+    "lTwoP TwoP . . . ."
+    "lThreeS ThreeS . . . ."
+    "lFourS FourS . . . ."
+    "lFH FH . . . ."
+    "lSS SS . . . ."
+    "lLS LS . . . ."
+    "lChance Chance . . . ."
+    "lYatzy Yatzy . . lTotal Total";
+}
+#id-1 {
+  grid-area: lOne;
+}
+
+#id-2 {
+  grid-area: One;
+}
+#id-3 {
+  grid-area: lTwo;
+}
+#id-4 {
+  grid-area: Two;
+}
+#id-5 {
+  grid-area: lThree;
+}
+#id-6 {
+  grid-area: Three;
+}
+#id-7 {
+  grid-area: lFour;
+}
+#id-8 {
+  grid-area: Four;
+}
+#id-9 {
+  grid-area: lFive;
+}
+#id-10 {
+  grid-area: Five;
+}
+#id-11 {
+  grid-area: lSix;
+}
+#id-12 {
+  grid-area: Six;
+}
+#id-13 {
+  grid-area: lBonus;
+}
+#id-14 {
+  grid-area: Bonus;
+}
+#id-15 {
+  grid-area: lSum;
+}
+#id-16 {
+  grid-area: Sum;
+}
+#id-17 {
+  grid-area: lOneP;
+}
+#id-18 {
+  grid-area: OneP;
+}
+#id-19 {
+  grid-area: lTwoP;
+}
+#id-20 {
+  grid-area: TwoP;
+}
+#id-21 {
+  grid-area: lThreeS;
+}
+#id-22 {
+  grid-area: ThreeS;
+}
+#id-23 {
+  grid-area: lFourS;
+}
+#id-24 {
+  grid-area: FourS;
+}
+#id-25 {
+  grid-area: lFH;
+}
+#id-26 {
+  grid-area: FH;
+}
+#id-27 {
+  grid-area: lSS;
+}
+#id-28 {
+  grid-area: SS;
+}
+#id-29 {
+  grid-area: lLS;
+}
+#id-30 {
+  grid-area: LS;
+}
+#id-31 {
+  grid-area: lChance;
+}
+#id-32 {
+  grid-area: Chance;
+}
+#id-33 {
+  grid-area: lYatzy;
+}
+#id-34 {
+  grid-area: Yatzy;
+}
+#id-35 {
+  grid-area: lTotal;
+}
+#id-36 {
+  grid-area: Total;
+}

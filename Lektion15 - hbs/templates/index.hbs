@@ -1,0 +1,19 @@
+{{!-- index.hbs --}}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <table>
+        {{#each fil}}
+        <tr>
+            <a href={{this}}> {{this}} </a><br>
+        </tr>
+        {{/each}}
+    </table>
+</body>
+
+</html>

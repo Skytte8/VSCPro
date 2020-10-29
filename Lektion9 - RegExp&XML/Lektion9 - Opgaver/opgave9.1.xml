@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personer>
+    <person category="JONAS">
+        <name>Jonas</name>
+        <age>30</age>
+        <number>112</number>
+        <adress>
+            <street>goofyst</street>
+            <city>Århus V</city>
+        </adress>
+    </person>
+    <person category="ANTON">
+        <name>Anton</name>
+        <age>11</age>
+        <number>6969</number>
+        <adress>
+            <street>NickVej</street>
+            <city>Århus C</city>
+        </adress>
+    </person>
+</personer>

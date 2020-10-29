@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "package.json": "^2.0.1",
+    "should": "^13.2.3",
+    "supertest": "^5.0.0"
+  }
+}

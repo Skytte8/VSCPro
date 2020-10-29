@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "mongose": "0.0.2-security",
+    "node-fetch": "^2.6.1"
+  }
+}
